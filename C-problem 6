@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int a =0,odd;
+    loop:if(a <=4)
+    {
+        odd =(2*a)+1;
+        a++;
+        printf("%d\n",odd );
+        goto loop;
+    }
+}
