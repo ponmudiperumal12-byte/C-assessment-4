@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int a = 5, even, f, s, b;
+    loop: if (a < 50)
+    {
+     even= (2 * a );
+     a++;
+     f = even % 10;     
+     s = even / 10; 
+     b=f+s;
+     if(b==6)
+     {
+       printf("%d \n", s * 10 + f);
+     }
+    goto loop;
+   }
+
+}
