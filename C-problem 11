@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int a = 5, odd, f, s, t, sum=0;
+    loop: if (a < 50)
+    {
+     odd= (2 * a+1 );
+     sum=odd+sum;
+     s = (sum/ 10)%10;
+     if(s==7)
+     {
+       printf("%d \n", sum);
+     }
+     a++;
+     goto loop;
+   }
+}
