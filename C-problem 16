@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, l, power = 1, result;
+    printf("enter the number:");
+    scanf("%d", &a);
+
+    b = a;
+
+loop:
+    if(b>= 10)
+    {
+        b = b / 10;
+        power = power * 10;
+        goto loop;
+    }
+
+    l = b;
+
+    if(l % 2 == 0
+    {
+        printf("%d", a);
+    }
+    else
+    {
+        result = a - power;
+        printf("%d", result);
+    }
+
+}
